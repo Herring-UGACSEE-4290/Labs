@@ -1,0 +1,205 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Thu Jun 04 13:54:58 2020
+[*]
+[dumpfile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_3\scratchpad\self_review2\lab_files\Educore-SingleCycle\dump.lx2"
+[dumpfile_mtime] "Thu Jun 04 12:55:43 2020"
+[dumpfile_size] 4736
+[savefile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_3\scratchpad\self_review2\lab_files\Educore-SingleCycle\debug.gtkw"
+[timestart] 966
+[size] 1280 657
+[pos] -2085 464
+*-6.559663 1000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_Educore.
+[treeopen] test_Educore.educore.
+[sst_width] 197
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 173
+@200
+-clocks
+@28
+test_Educore.main_clk[0]
+test_Educore.mem_clk[0]
+test_Educore.core_clk[0]
+@200
+-
+-System-wide
+@22
+test_Educore.educore.error_indicator[3:0]
+@28
+test_Educore.educore.nreset[0]
+test_Educore.educore.nreset_sync[0]
+test_Educore.educore.npe_stop[0]
+@200
+-
+-PC logic
+@28
+test_Educore.educore.br_taken[0]
+@22
+test_Educore.educore.exec_n[63:0]
+test_Educore.educore.exec_m[63:0]
+test_Educore.educore.pc_add[63:0]
+test_Educore.educore.aligned_pc[63:0]
+@24
+test_Educore.educore.PC[61:0]
+@22
+test_Educore.educore.instruction[31:0]
+@200
+-
+-Registers
+@22
+test_Educore.educore.register_file.rX00[63:0]
+test_Educore.educore.register_file.rX01[63:0]
+test_Educore.educore.register_file.rX02[63:0]
+test_Educore.educore.register_file.rX24[63:0]
+test_Educore.educore.register_file.rX25[63:0]
+test_Educore.educore.register_file.rX04[63:0]
+test_Educore.educore.register_file.rX23[63:0]
+test_Educore.educore.register_file.rX05[63:0]
+test_Educore.educore.register_file.rX06[63:0]
+test_Educore.educore.register_file.rX10[63:0]
+test_Educore.educore.register_file.rX11[63:0]
+test_Educore.educore.register_file.rX20[63:0]
+test_Educore.educore.register_file.rX21[63:0]
+test_Educore.educore.register_file.rX22[63:0]
+test_Educore.educore.error_indicator[3:0]
+@200
+-
+-Instruction Decode
+@22
+test_Educore.educore.instruction_decoder.read_reg_aa[4:0]
+test_Educore.educore.instruction_decoder.read_reg_an[4:0]
+test_Educore.educore.instruction_decoder.read_reg_am[4:0]
+@28
+test_Educore.educore.exec_n_mux[1:0]
+test_Educore.educore.instruction_decoder.exec_m_mux[0]
+test_Educore.educore.instruction_decoder.FnH[0]
+@22
+test_Educore.educore.instruction_decoder.immediate[63:0]
+@28
+test_Educore.educore.instruction_decoder.nextPC_mux[0]
+test_Educore.educore.instruction_decoder.PC_add_op_mux[0]
+test_Educore.educore.instruction_decoder.br_condition_mux[0]
+@200
+-
+-Register File
+@22
+test_Educore.educore.register_file.read_reg_aa[4:0]
+test_Educore.educore.register_file.read_reg_am[4:0]
+test_Educore.educore.register_file.read_reg_an[4:0]
+test_Educore.educore.register_file.read_reg_va[63:0]
+test_Educore.educore.register_file.read_reg_vm[63:0]
+test_Educore.educore.register_file.read_reg_vn[63:0]
+@28
+test_Educore.educore.register_file.write_en[0]
+@22
+test_Educore.educore.register_file.write_reg_a[4:0]
+test_Educore.educore.register_file.write_reg_v[63:0]
+@28
+test_Educore.educore.register_file.wload_en[0]
+@22
+test_Educore.educore.register_file.wload_reg_a[4:0]
+test_Educore.educore.register_file.wload_reg_v[63:0]
+@200
+-
+-Barrel Shifter
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.register_file.rX02[63:0]
+test_Educore.educore.barrel_shifter.shamt[5:0]
+@28
+test_Educore.educore.barrel_shifter.FnH[0]
+test_Educore.educore.barrel_shifter.barrel_op[1:0]
+@22
+test_Educore.educore.barrel_shifter.barrel_in[63:0]
+test_Educore.educore.barrel_shifter.upper_in[63:0]
+test_Educore.educore.barrel_shifter.right_shamt[5:0]
+test_Educore.educore.barrel_shifter.barrel_out[63:0]
+@200
+-
+-Immediate Decoder
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.register_file.rX01[63:0]
+test_Educore.educore.immediate_decoder.immr[5:0]
+test_Educore.educore.immediate_decoder.imms[5:0]
+@28
+test_Educore.educore.immediate_decoder.N[0]
+@22
+test_Educore.educore.immediate_decoder.wmask[63:0]
+test_Educore.educore.immediate_decoder.tmask[63:0]
+@200
+-
+-Masking logic
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.register_file.rX02[63:0]
+test_Educore.educore.wmask[63:0]
+test_Educore.educore.barrel_out[63:0]
+test_Educore.educore.tmask[63:0]
+test_Educore.educore.bitext_out[63:0]
+@28
+test_Educore.educore.wtmask[0]
+@200
+-
+-ALU logic
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.register_file.rX01[63:0]
+test_Educore.educore.register_file.rX00[63:0]
+test_Educore.educore.register_file.rX04[63:0]
+test_Educore.educore.alu.operand_a[63:0]
+test_Educore.educore.alu.operand_b[63:0]
+@28
+test_Educore.educore.alu.invert_b[0]
+test_Educore.educore.alu.carry_in[0]
+test_Educore.educore.alu.FnH[0]
+test_Educore.educore.alu.cmd[2:0]
+@22
+test_Educore.educore.alu.result[63:0]
+test_Educore.educore.alu.flags_nzcv[3:0]
+@200
+-
+-PSTATE and ALU result logic
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.register_file.rX05[63:0]
+test_Educore.educore.register_file.rX06[63:0]
+test_Educore.educore.PSTATE[3:0]
+@200
+-
+-Memory access
+@28
+test_Educore.mem_clk[0]
+test_Educore.educore.clk[0]
+@24
+test_Educore.educore.PC[61:0]
+@22
+test_Educore.educore.register_file.rX00[63:0]
+test_Educore.educore.register_file.rX10[63:0]
+test_Educore.educore.register_file.rX11[63:0]
+@28
+test_Educore.educore.mem_size[1:0]
+test_Educore.educore.mem_read[0]
+@22
+test_Educore.educore.data_memory_in_v[63:0]
+@28
+test_Educore.educore.mem_write[0]
+@23
+test_Educore.educore.data_memory_out_v[63:0]
+@22
+test_Educore.educore.rt_value[63:0]
+@28
+test_Educore.educore.data_memory_write[0]
+@22
+test_Educore.educore.memory_out[63:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

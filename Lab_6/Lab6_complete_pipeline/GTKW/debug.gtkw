@@ -1,0 +1,166 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Sat May 02 08:41:53 2020
+[*]
+[dumpfile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_6\self_review\Lab6_complete_pipeline\sim_dump\test_Lab6_complete.mem.lx2"
+[dumpfile_mtime] "Sat May 02 07:38:08 2020"
+[dumpfile_size] 7638
+[savefile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_6\self_review\Lab6_complete_pipeline\GTKW\debug.gtkw"
+[timestart] 1011
+[size] 1680 987
+[pos] -1 -1
+*-7.075416 1060 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_Educore.
+[treeopen] test_Educore.educore.
+[sst_width] 218
+[signals_width] 323
+[sst_expanded] 1
+[sst_vpaned_height] 467
+@28
+test_Educore.educore.clk[0]
+@22
+test_Educore.educore.error_indicator[3:0]
+@24
+test_Educore.educore.PC[61:0]
+test_Educore.educore.ID_PC[61:0]
+@22
+test_Educore.educore.error_indicator[3:0]
+@200
+-
+-Registers
+@c00024
+test_Educore.educore.register_file.rX00[63:0]
+@28
+(0)test_Educore.educore.register_file.rX00[63:0]
+(1)test_Educore.educore.register_file.rX00[63:0]
+(2)test_Educore.educore.register_file.rX00[63:0]
+(3)test_Educore.educore.register_file.rX00[63:0]
+(4)test_Educore.educore.register_file.rX00[63:0]
+(5)test_Educore.educore.register_file.rX00[63:0]
+(6)test_Educore.educore.register_file.rX00[63:0]
+(7)test_Educore.educore.register_file.rX00[63:0]
+(8)test_Educore.educore.register_file.rX00[63:0]
+(9)test_Educore.educore.register_file.rX00[63:0]
+(10)test_Educore.educore.register_file.rX00[63:0]
+(11)test_Educore.educore.register_file.rX00[63:0]
+(12)test_Educore.educore.register_file.rX00[63:0]
+(13)test_Educore.educore.register_file.rX00[63:0]
+(14)test_Educore.educore.register_file.rX00[63:0]
+(15)test_Educore.educore.register_file.rX00[63:0]
+(16)test_Educore.educore.register_file.rX00[63:0]
+(17)test_Educore.educore.register_file.rX00[63:0]
+(18)test_Educore.educore.register_file.rX00[63:0]
+(19)test_Educore.educore.register_file.rX00[63:0]
+(20)test_Educore.educore.register_file.rX00[63:0]
+(21)test_Educore.educore.register_file.rX00[63:0]
+(22)test_Educore.educore.register_file.rX00[63:0]
+(23)test_Educore.educore.register_file.rX00[63:0]
+(24)test_Educore.educore.register_file.rX00[63:0]
+(25)test_Educore.educore.register_file.rX00[63:0]
+(26)test_Educore.educore.register_file.rX00[63:0]
+(27)test_Educore.educore.register_file.rX00[63:0]
+(28)test_Educore.educore.register_file.rX00[63:0]
+(29)test_Educore.educore.register_file.rX00[63:0]
+(30)test_Educore.educore.register_file.rX00[63:0]
+(31)test_Educore.educore.register_file.rX00[63:0]
+(32)test_Educore.educore.register_file.rX00[63:0]
+(33)test_Educore.educore.register_file.rX00[63:0]
+(34)test_Educore.educore.register_file.rX00[63:0]
+(35)test_Educore.educore.register_file.rX00[63:0]
+(36)test_Educore.educore.register_file.rX00[63:0]
+(37)test_Educore.educore.register_file.rX00[63:0]
+(38)test_Educore.educore.register_file.rX00[63:0]
+(39)test_Educore.educore.register_file.rX00[63:0]
+(40)test_Educore.educore.register_file.rX00[63:0]
+(41)test_Educore.educore.register_file.rX00[63:0]
+(42)test_Educore.educore.register_file.rX00[63:0]
+(43)test_Educore.educore.register_file.rX00[63:0]
+(44)test_Educore.educore.register_file.rX00[63:0]
+(45)test_Educore.educore.register_file.rX00[63:0]
+(46)test_Educore.educore.register_file.rX00[63:0]
+(47)test_Educore.educore.register_file.rX00[63:0]
+(48)test_Educore.educore.register_file.rX00[63:0]
+(49)test_Educore.educore.register_file.rX00[63:0]
+(50)test_Educore.educore.register_file.rX00[63:0]
+(51)test_Educore.educore.register_file.rX00[63:0]
+(52)test_Educore.educore.register_file.rX00[63:0]
+(53)test_Educore.educore.register_file.rX00[63:0]
+(54)test_Educore.educore.register_file.rX00[63:0]
+(55)test_Educore.educore.register_file.rX00[63:0]
+(56)test_Educore.educore.register_file.rX00[63:0]
+(57)test_Educore.educore.register_file.rX00[63:0]
+(58)test_Educore.educore.register_file.rX00[63:0]
+(59)test_Educore.educore.register_file.rX00[63:0]
+(60)test_Educore.educore.register_file.rX00[63:0]
+(61)test_Educore.educore.register_file.rX00[63:0]
+(62)test_Educore.educore.register_file.rX00[63:0]
+(63)test_Educore.educore.register_file.rX00[63:0]
+@1401200
+-group_end
+@24
+test_Educore.educore.register_file.rX01[63:0]
+@22
+test_Educore.educore.register_file.rX02[63:0]
+@24
+test_Educore.educore.register_file.rX05[63:0]
+test_Educore.educore.register_file.rX06[63:0]
+test_Educore.educore.register_file.rX07[63:0]
+test_Educore.educore.register_file.rX08[63:0]
+test_Educore.educore.register_file.rX09[63:0]
+test_Educore.educore.register_file.rX10[63:0]
+test_Educore.educore.register_file.rX11[63:0]
+test_Educore.educore.register_file.rX12[63:0]
+test_Educore.educore.register_file.rX13[63:0]
+@200
+-
+-Store
+@24
+test_Educore.educore.PC[61:0]
+test_Educore.educore.register_file.rX10[63:0]
+@28
+test_Educore.data_memory_write[0]
+@24
+test_Educore.memx104[8:0]
+@200
+-
+-Stall
+@24
+test_Educore.educore.aligned_pc[63:0]
+test_Educore.educore.aligned_id_pc[63:0]
+test_Educore.educore.PC[61:0]
+test_Educore.educore.ID_PC[61:0]
+@28
+test_Educore.educore.stall[0]
+test_Educore.educore.instruction_memory_en[0]
+@22
+test_Educore.educore.instruction_memory_v[31:0]
+test_Educore.educore.instruction[31:0]
+@28
+test_Educore.educore.EX_wload_en[0]
+@24
+test_Educore.educore.register_file.rX10[63:0]
+test_Educore.educore.register_file.rX11[63:0]
+test_Educore.educore.register_file.rX12[63:0]
+test_Educore.educore.register_file.rX13[63:0]
+@200
+-
+-Branches
+@24
+test_Educore.educore.aligned_pc[63:0]
+test_Educore.educore.aligned_id_pc[63:0]
+test_Educore.educore.PC[61:0]
+test_Educore.educore.ID_PC[61:0]
+@28
+test_Educore.educore.branch_bubble[0]
+test_Educore.educore.next_instruction_valid[0]
+test_Educore.educore.instruction_valid[0]
+test_Educore.educore.instruction_memory_en[0]
+@22
+test_Educore.educore.instruction_memory_v[31:0]
+test_Educore.educore.instruction[31:0]
+@24
+test_Educore.educore.register_file.rX11[63:0]
+test_Educore.educore.register_file.rX02[63:0]
+test_Educore.educore.register_file.rX20[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

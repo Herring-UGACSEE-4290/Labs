@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Thu Apr 30 14:48:57 2020
+[*]
+[dumpfile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_4\scratch_area\self_review2\Lab4_simple_pipeline\sim_dump\test_Lab4_pipeline1.mem.lx2"
+[dumpfile_mtime] "Thu Apr 30 09:08:26 2020"
+[dumpfile_size] 3786
+[savefile] "C:\Users\fratan01\OneDrive - Arm\Documents\ARM_EDUCATION_MEDIA_WORK\SVN_CHECKOUTS\Content_WorkSpace\Courses\Computer_Architecture\Education_Kit\Labs_EduCoreV8\Lab_4\scratch_area\self_review2\Lab4_simple_pipeline\GTKW\waveform_Lab4_pipeline1.gtkw"
+[timestart] 0
+[size] 1280 657
+[pos] -2111 438
+*-7.762548 340 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_Educore.
+[treeopen] test_Educore.educore.
+[sst_width] 197
+[signals_width] 238
+[sst_expanded] 1
+[sst_vpaned_height] 225
+@28
+test_Educore.mem_clk[0]
+test_Educore.educore.clk[0]
+test_Educore.nreset[0]
+test_Educore.educore.nreset_sync[0]
+test_Educore.educore.next_instruction_valid[0]
+test_Educore.educore.instruction_valid[0]
+test_Educore.educore.instruction_memory_en[0]
+@22
+test_Educore.educore.instruction_memory_v[31:0]
+@24
+test_Educore.educore.PC[61:0]
+test_Educore.educore.ID_PC[61:0]
+@22
+test_Educore.educore.error_indicator[3:0]
+@200
+-_start:
+@22
+test_Educore.educore.register_file.rX00[63:0]
+test_Educore.educore.register_file.rX01[63:0]
+test_Educore.educore.register_file.rX02[63:0]
+test_Educore.educore.register_file.rX03[63:0]
+test_Educore.educore.register_file.rX04[63:0]
+test_Educore.educore.register_file.rX05[63:0]
+test_Educore.educore.register_file.rX06[63:0]
+test_Educore.educore.register_file.rX07[63:0]
+@200
+-_test2:
+@22
+test_Educore.educore.register_file.rX09[63:0]
+test_Educore.educore.register_file.rX10[63:0]
+test_Educore.educore.register_file.rX11[63:0]
+test_Educore.educore.register_file.rX12[63:0]
+@200
+-pipeline registers
+@28
+test_Educore.educore.clk[0]
+@24
+test_Educore.educore.PC[61:0]
+test_Educore.educore.ID_PC[61:0]
+@28
+test_Educore.educore.ID_write_en[0]
+test_Educore.educore.EX_write_en[0]
+test_Educore.educore.MEM_write_en[0]
+test_Educore.educore.WB_write_en[0]
+@24
+test_Educore.educore.MEM_ex_out[63:0]
+test_Educore.educore.WB_ex_out[63:0]
+test_Educore.educore.register_file.rX00[63:0]
+@25
+test_Educore.educore.register_file.rX01[63:0]
+[pattern_trace] 1
+[pattern_trace] 0
