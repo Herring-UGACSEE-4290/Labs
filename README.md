@@ -1,2 +1,3 @@
 # Labs
-All of the lab files for the class
+
+All of the lab files for the class. 
